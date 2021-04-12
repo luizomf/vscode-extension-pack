@@ -1,17 +1,34 @@
 {
     "name": "om-extension-pack",
+    "publisher": "omthemes",
+    "license": "MIT",
     "displayName": "OM Extension Pack",
     "description": "My favorite extensions.",
     "version": "0.0.1",
+    "homepage": "https://github.com/luizomf",
     "engines": {
         "vscode": "^1.46.0"
     },
+    "maintainers": [
+        "Otávio Miranda <luizomf@gmail.com>"
+    ],
+    "contributors": [
+        "Otávio Miranda"
+    ],
     "categories": [
         "Extension Packs"
     ],
     "repository": {
-      "url": "https://github.com/luizomf/vscode-extension-pack"
+        "type": "git",
+        "url": "https://github.com/luizomf/vscode-extension-pack"
     },
+    "keywords": [
+        "Extension Pack",
+        "om theme",
+        "omtheme",
+        "omthemes",
+        "Otávio Miranda"
+    ],
     "extensionPack": [
         "aeschli.vscode-css-formatter",
         "apollographql.vscode-apollo",
@@ -34,5 +51,14 @@
         "streetsidesoftware.code-spell-checker-portuguese-brazilian",
         "VisualStudioExptTeam.vscodeintellicode",
         "coenraads.bracket-pair-colorizer-2"
-    ]
+    ],
+    "icon": "icon.png",
+    "devDependencies": {
+        "vsce": "^1.87.1"
+    },
+    "scripts": {
+      "package": "vsce package -o ./bin/om-extension-pack.vsix",
+      "publish": "npm run package && vsce publish",
+      "login": "vsce login omthemes"
+    }
 }
