@@ -1,9 +1,9 @@
-# Change Log
+# Changelog
 
-All notable changes to the "om-extension-pack" extension pack will be documented in this file.
+## 0.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Initial Release
 
-## [Unreleased]
+- Initial Release
 
-- Initial release
+---

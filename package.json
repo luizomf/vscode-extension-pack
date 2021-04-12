@@ -9,6 +9,9 @@
     "categories": [
         "Extension Packs"
     ],
+    "repository": {
+      "url": "https://github.com/luizomf/vscode-extension-pack"
+    },
     "extensionPack": [
         "aeschli.vscode-css-formatter",
         "apollographql.vscode-apollo",
