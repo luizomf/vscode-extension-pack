@@ -1,0 +1,35 @@
+{
+    "name": "om-extension-pack",
+    "displayName": "OM Extension Pack",
+    "description": "My favorite extensions.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "aeschli.vscode-css-formatter",
+        "apollographql.vscode-apollo",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "formulahendry.code-runner",
+        "jpoissonnier.vscode-styled-components",
+        "kamikillerto.vscode-colorize",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "natqe.reload",
+        "omthemes.omthemes",
+        "PKief.material-icon-theme",
+        "redhat.vscode-yaml",
+        "ritwickdey.LiveServer",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "coenraads.bracket-pair-colorizer-2"
+    ]
+}
